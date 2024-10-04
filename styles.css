@@ -1,0 +1,143 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Background Image */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image: url('ahmcapital.jpg'); /* Set the background image here */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh; /* Use min-height instead of fixed height for better mobile handling */
+}
+
+/* Logo Styles */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    font-family: Verdana, sans-serif;
+    font-size: 2.5rem;
+    color: #003366;
+    border: 2px solid #003366;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Hero Section */
+.hero {
+    position: absolute;
+    bottom: 180px; /* Moved slightly up */
+    right: 1px;
+}
+
+.hero-text {
+    background-color: white;
+    padding: 20px;
+    max-width: 400px;
+    border: 1px solid #003366;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text h2 {
+    font-family: Verdana, sans-serif;
+    color: #003366;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Footer Section */
+.footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0 20px;
+}
+
+/* Contact Information Section */
+.contact-info {
+    text-align: right;
+    font-size: 1.2rem; /* Increased font size by 2 points */
+}
+
+.contact-info p {
+    margin: 0.3rem 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Legal Notice Section */
+.legal-notice {
+    margin: 1.2rem 0;
+    text-align: left;
+}
+
+/* Copyright Section */
+.copyright-info {
+    font-size: 0.8rem; /* Reduced font size */
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 768px) {
+    /* Adjust Hero Section on smaller screens */
+    .hero {
+        bottom: 120px; /* Move the punchline box higher on smaller screens */
+        left: 10px;
+        right: 10px;
+    }
+
+    .hero-text {
+        max-width: 100%; /* Allow full width on mobile */
+        font-size: 1.3rem;
+    }
+
+    /* Adjust footer position for smaller screens */
+    .footer {
+        bottom: 0;
+        padding: 10px 15px;
+        font-size: 0.8rem; /* Reduce font size slightly for mobile */
+    }
+
+    /* Adjust font sizes for contact info */
+    .contact-info {
+        font-size: 1rem; /* Smaller font size for mobile screens */
+        text-align: center; /* Center align the contact info on mobile */
+    }
+
+    /* Adjust Legal Notice */
+    .legal-notice {
+        text-align: center;
+        margin: 1rem 0;
+        font-size: 0.75rem; /* Slightly reduce the font size for readability */
+    }
+
+    /* Adjust Copyright */
+    .copyright-info {
+        font-size: 0.7rem;
+        text-align: center; /* Center align the copyright on mobile */
+        position: static; /* Remove absolute positioning on mobile */
+        margin-top: 1rem;
+    }
+}
