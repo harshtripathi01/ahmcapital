@@ -41,7 +41,7 @@ body {
 .hero {
     position: absolute;
     bottom: 180px; /* Moved slightly up */
-    right: 1px;
+    right: 20px;
 }
 
 .hero-text {
@@ -106,11 +106,18 @@ body {
         bottom: 120px; /* Move the punchline box higher on smaller screens */
         left: 10px;
         right: 10px;
+        max-width: 90%; /* Allow the white box to adjust its width */
+        margin: auto; /* Center align the hero section */
+    }
+
+    .hero-text h2 {
+        font-size: 1.2rem; /* Decrease font size for mobile screens */
     }
 
     .hero-text {
         max-width: 100%; /* Allow full width on mobile */
-        font-size: 1.3rem;
+        font-size: 1.1rem; /* Adjusted font size for readability */
+        text-align: center;
     }
 
     /* Adjust footer position for smaller screens */
