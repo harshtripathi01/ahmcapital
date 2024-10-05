@@ -55,7 +55,7 @@ body {
     align-self: flex-end;
     
     margin-top: auto;
-    margin-right: 40px;  /* Moves the hero section to the extreme right within its flex container */
+    margin-right: 20px;  /* Moves the hero section to the extreme right within its flex container */
 }
 
 .hero h2 {
@@ -69,7 +69,7 @@ body {
     font-size: 1.2rem; /* Increased font size by 2 points */
     color: white;
     text-align: right;
-    padding: 40px;
+    padding: 20px;
     margin: 10px 0;
 }
 
@@ -84,8 +84,8 @@ body {
     color: white;
     margin-bottom: 10px;
     max-width: 100%;
-    padding-right: 40px;
-    padding-left: 20px;
+    padding-right: 20px;
+    padding-left: 10px;
 }
 
 /* Copyright Section */
@@ -93,15 +93,15 @@ body {
     font-size: 0.8rem; /* Reduced font size */
     text-align: right;
     color: white;
-    margin-bottom: 20px;
-    padding: 40px;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 
 /* Responsive Adjustments */
 @media only screen and (max-width: 768px) {
     /* Adjust Hero Section on smaller screens */
     .hero {
-        max-width: 80%;
+        max-width: 90%;
     }
 
     .hero h2 {
@@ -115,11 +115,11 @@ body {
 
     /* Legal Notice */
     .legal-notice {
-        font-size: 0.6rem; /* Slightly reduce the font size for readability */
+        font-size: 0.7rem; /* Slightly reduce the font size for readability */
     }
 
     /* Copyright */
     .copyright-info {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
 }
