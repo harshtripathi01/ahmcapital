@@ -101,25 +101,25 @@ body {
 @media only screen and (max-width: 768px) {
     /* Adjust Hero Section on smaller screens */
     .hero {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     .hero h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     /* Contact Info */
     .contact-info {
-        font-size: 1rem; /* Smaller font size for mobile screens */
+        font-size: 0.8rem; /* Smaller font size for mobile screens */
     }
 
     /* Legal Notice */
     .legal-notice {
-        font-size: 0.75rem; /* Slightly reduce the font size for readability */
+        font-size: 0.6rem; /* Slightly reduce the font size for readability */
     }
 
     /* Copyright */
     .copyright-info {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 }
