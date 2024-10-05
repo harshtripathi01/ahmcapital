@@ -10,18 +10,22 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-image: url('ahmcapital.jpg'); /* Set the background image here */
+    background-image: url('ahmcapital.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     min-height: 100vh; /* Use min-height instead of fixed height for better mobile handling */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Logo Styles */
+/* Logo Container */
 .logo-container {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    position: relative;
+    align-self: flex-start;
+    margin: 20px;
 }
 
 .logo {
@@ -39,112 +43,83 @@ body {
 
 /* Hero Section */
 .hero {
-    position: absolute;
-    bottom: 180px; /* Moved slightly up */
-    right: 20px;
-}
-
-.hero-text {
     background-color: white;
     padding: 20px;
     max-width: 400px;
+
     border: 1px solid #003366;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px 0;
+
+    align-self: flex-end;
+    
+    margin-top: auto;
+    margin-right: 40px;  /* Moves the hero section to the extreme right within its flex container */
 }
 
-.hero-text h2 {
+.hero h2 {
     font-family: Verdana, sans-serif;
     color: #003366;
     font-size: 1.5rem;
-    text-align: center;
-}
-
-/* Footer Section */
-.footer {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    color: white;
-    font-size: 0.9rem;
-    padding: 0 20px;
 }
 
 /* Contact Information Section */
 .contact-info {
-    text-align: right;
     font-size: 1.2rem; /* Increased font size by 2 points */
-}
-
-.contact-info p {
-    margin: 0.3rem 0;
+    color: white;
+    text-align: right;
+    padding: 40px;
+    margin: 10px 0;
 }
 
 .contact-info a {
-    color: white;
-    text-decoration: underline;
+    color: white; /* Make the email link white */
 }
 
 /* Legal Notice Section */
 .legal-notice {
-    margin: 1.2rem 0;
-    text-align: left;
+    font-size: 1rem;
+    text-align: justify;
+    color: white;
+    margin-bottom: 10px;
+    max-width: 100%;
+    padding-right: 40px;
+    padding-left: 20px;
 }
 
 /* Copyright Section */
 .copyright-info {
     font-size: 0.8rem; /* Reduced font size */
     text-align: right;
-    position: absolute;
-    right: 20px;
-    bottom: 0;
+    color: white;
+    margin-bottom: 20px;
+    padding: 40px;
 }
 
 /* Responsive Adjustments */
 @media only screen and (max-width: 768px) {
     /* Adjust Hero Section on smaller screens */
     .hero {
-        bottom: 120px; /* Move the punchline box higher on smaller screens */
-        left: 10px;
-        right: 10px;
-        max-width: 90%; /* Allow the white box to adjust its width */
-        margin: auto; /* Center align the hero section */
+        max-width: 90%;
     }
 
-    .hero-text h2 {
-        font-size: 1.2rem; /* Decrease font size for mobile screens */
+    .hero h2 {
+        font-size: 1.2rem;
     }
 
-    .hero-text {
-        max-width: 100%; /* Allow full width on mobile */
-        font-size: 1.1rem; /* Adjusted font size for readability */
-        text-align: center;
-    }
-
-    /* Adjust footer position for smaller screens */
-    .footer {
-        bottom: 0;
-        padding: 10px 15px;
-        font-size: 0.8rem; /* Reduce font size slightly for mobile */
-    }
-
-    /* Adjust font sizes for contact info */
+    /* Contact Info */
     .contact-info {
         font-size: 1rem; /* Smaller font size for mobile screens */
-        text-align: center; /* Center align the contact info on mobile */
     }
 
-    /* Adjust Legal Notice */
+    /* Legal Notice */
     .legal-notice {
-        text-align: center;
-        margin: 1rem 0;
         font-size: 0.75rem; /* Slightly reduce the font size for readability */
     }
 
-    /* Adjust Copyright */
+    /* Copyright */
     .copyright-info {
         font-size: 0.7rem;
-        text-align: center; /* Center align the copyright on mobile */
-        position: static; /* Remove absolute positioning on mobile */
-        margin-top: 1rem;
     }
 }
