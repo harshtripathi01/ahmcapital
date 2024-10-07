@@ -106,9 +106,9 @@ body {
     padding-right: 10px;
 }
 
-/* Responsive Adjustments */
+/* Responsive Adjustments 
 @media only screen and (max-width: 600px) {
-    /* Adjust Hero Section on smaller screens */
+     Adjust Hero Section on smaller screens 
     .hero {
         max-width: 90%;
     }
@@ -117,18 +117,19 @@ body {
         font-size: 1rem;
     }
 
-    /* Contact Info */
+     
     .contact-info {
-        font-size: 0.8rem; /* Smaller font size for mobile screens */
+        font-size: 0.8rem; 
     }
 
-    /* Legal Notice */
+    
     .legal-notice {
-        font-size: 0.5rem; /* Slightly reduce the font size for readability */
+        font-size: 0.5rem; 
     }
 
-    /* Copyright */
+    
     .copyright-info {
         font-size: 0.6rem;
     }
 }
+*/
