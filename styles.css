@@ -57,6 +57,7 @@ body {
 
     position: relative;
     top: 50px;
+    bottom: 20px;
     white-space: nowrap;
     
     margin-top: auto;
@@ -118,7 +119,7 @@ body {
     }
 
     .hero h2 {
-        font-size: 0.85rem;
+        font-size: 1rem;
     }
 
      
