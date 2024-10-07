@@ -69,7 +69,7 @@ body {
     font-size: 1.2rem; /* Increased font size by 2 points */
     color: white;
     text-align: right;
-    padding: 1px;
+    padding-right: 1px;
     padding-left: 10px;
     padding-top: 20px;
     margin: 1px 0;
