@@ -55,7 +55,7 @@ body {
     align-self: flex-end;
     
     margin-top: auto;
-    margin-right: 20px;  /* Moves the hero section to the extreme right within its flex container */
+    margin-right: 1px;  /* Moves the hero section to the extreme right within its flex container */
 }
 
 .hero h2 {
@@ -69,8 +69,8 @@ body {
     font-size: 1.2rem; /* Increased font size by 2 points */
     color: white;
     text-align: right;
-    padding: 20px;
-    margin: 10px 0;
+    padding: 1px;
+    margin: 1px 0;
 }
 
 .contact-info a {
@@ -84,8 +84,8 @@ body {
     color: white;
     margin-bottom: 10px;
     max-width: 100%;
-    padding-right: 20px;
-    padding-left: 10px;
+    padding-right: 1px;
+    padding-left: 1px;
 }
 
 /* Copyright Section */
@@ -94,7 +94,7 @@ body {
     text-align: right;
     color: white;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 1px;
 }
 
 /* Responsive Adjustments */
