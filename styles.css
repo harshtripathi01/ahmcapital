@@ -57,6 +57,7 @@ body {
 
     position: relative;
     top: 50px;
+    white-space: nowrap;
     
     margin-top: auto;
     margin-right: 1px;  /* Moves the hero section to the extreme right within its flex container */
