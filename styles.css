@@ -110,7 +110,7 @@ body {
 @media only screen and (max-width: 768px) {
     /* Adjust Hero Section on smaller screens */
     .hero {
-        max-width: 75%;
+        max-width: 90%;
     }
 
     .hero h2 {
