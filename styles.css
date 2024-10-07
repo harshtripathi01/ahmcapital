@@ -106,11 +106,11 @@ body {
     padding-right: 10px;
 }
 
-/* Responsive Adjustments 
+/* Responsive Adjustments */
 @media only screen and (max-width: 600px) {
      Adjust Hero Section on smaller screens 
     .hero {
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .hero h2 {
@@ -132,4 +132,3 @@ body {
         font-size: 0.6rem;
     }
 }
-*/
