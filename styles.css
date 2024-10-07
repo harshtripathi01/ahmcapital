@@ -113,10 +113,12 @@ body {
 }
 
 /* Responsive Adjustments */
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 768px) {
      /*Adjust Hero Section on smaller screens*/
     .hero {
-        max-width: 100%;
+        max-width: 70%;
+        padding: 10px;
+        margin: 10px auto;
     }
 
     .hero h2 {
