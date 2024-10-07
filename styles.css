@@ -46,7 +46,7 @@ body {
     background-color: white;
     font-family: Verdana, sans-serif;
     padding: 20px;
-    max-width: 800px;
+    max-width: 400px;
 
     border: 1px solid #003366;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -107,7 +107,7 @@ body {
 }
 
 /* Responsive Adjustments */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 786px) {
      /*Adjust Hero Section on smaller screens*/
     .hero {
         max-width: 100%;
