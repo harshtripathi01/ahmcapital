@@ -47,7 +47,6 @@ body {
     font-family: Verdana, sans-serif;
     padding: 20px;
     max-width: 400px;
-    align-self: flex-start;
 
     border: 1px solid #003366;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -115,6 +114,7 @@ body {
     }
 
     .hero h2 {
+        max-width: 100%;
         font-size: 0.85rem;
     }
 
