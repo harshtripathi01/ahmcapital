@@ -54,6 +54,9 @@ body {
     margin-bottom: 20px 0;
 
     align-self: flex-end;
+
+    position: relative;
+    top: 50px;
     
     margin-top: auto;
     margin-right: 1px;  /* Moves the hero section to the extreme right within its flex container */
