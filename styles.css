@@ -58,11 +58,11 @@ body {
     position: relative;
     white-space: nowrap;
 
-    top:100px;
+    top:200px;
     
     margin-top: auto;
     margin-right: 1px;  /* Moves the hero section to the extreme right within its flex container */
-    margin-bottom:100px;
+    margin-bottom:200px;
 }
 
 .hero h2 {
