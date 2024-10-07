@@ -56,8 +56,6 @@ body {
     align-self: flex-end;
 
     position: relative;
-    top: 50px;
-    bottom: 20px;
     white-space: nowrap;
     
     margin-top: auto;
@@ -78,7 +76,7 @@ body {
     text-align: right;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 20px;
+    padding-top: 50px;
     margin: 10px;
 }
 
@@ -119,7 +117,8 @@ body {
     }
 
     .hero h2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        white-space: nowrap;
     }
 
      
