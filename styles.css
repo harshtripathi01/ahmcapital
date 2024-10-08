@@ -118,6 +118,7 @@ body {
     .hero {
         max-width: 80%;
         padding: 10px;
+        margin-right: 10px; /* Smaller margin on the right for mobile */
     }
 
     .hero h2 {
