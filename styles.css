@@ -61,7 +61,7 @@ body {
     top:200px;
     
     margin-top: auto;
-    margin-right: 20px;  /* Moves the hero section to the extreme right within its flex container */
+    margin-right: 40px;  /* Moves the hero section to the extreme right within its flex container */
     margin-bottom:200px;
 }
 
