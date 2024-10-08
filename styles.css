@@ -61,7 +61,7 @@ body {
     top:200px;
     
     margin-top: auto;
-    margin-right: 1px;  /* Moves the hero section to the extreme right within its flex container */
+    margin-right: 0px;  /* Moves the hero section to the extreme right within its flex container */
     margin-bottom:200px;
 }
 
@@ -116,7 +116,7 @@ body {
 @media only screen and (max-width: 768px) {
      /*Adjust Hero Section on smaller screens*/
     .hero {
-        max-width: 50%;
+        max-width: 80%;
         padding: 10px;
     }
 
